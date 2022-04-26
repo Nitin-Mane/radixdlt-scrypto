@@ -12,6 +12,8 @@ num-bigint = { version = "0.4.3", default-features = false }
 sbor = { path = "../sbor", default-features = false }
 scrypto-abi = { path = "../scrypto-abi", default-features = false }
 scrypto-derive = { path = "../scrypto-derive", default-features = false }
+forward_ref = { version = "1.0.0"}
+paste = { version = "1.0.7"}
 
 [features]
 # You should enable either `std` or `alloc`
